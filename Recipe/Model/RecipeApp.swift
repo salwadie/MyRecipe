@@ -4,14 +4,15 @@
 //
 //  Created by Sara Alwadie on 26/04/1446 AH.
 //
-
 import SwiftUI
 
 @main
-struct RecipeApp: App {
+struct MyRecipe1App: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RecipeView()
         }
     }
 }
+

@@ -35,16 +35,6 @@
 			path = Recipe;
 			sourceTree = "<group>";
 		};
-		560E00EA2CD1085D00A77785 /* RecipeTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RecipeTests;
-			sourceTree = "<group>";
-		};
-		560E00F42CD1085D00A77785 /* RecipeUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RecipeUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				560E00D92CD1085D00A77785 /* Recipe */,
-				560E00EA2CD1085D00A77785 /* RecipeTests */,
-				560E00F42CD1085D00A77785 /* RecipeUITests */,
 				560E00D82CD1085D00A77785 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				560E00E92CD1085D00A77785 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				560E00EA2CD1085D00A77785 /* RecipeTests */,
-			);
 			name = RecipeTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				560E00F32CD1085D00A77785 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				560E00F42CD1085D00A77785 /* RecipeUITests */,
 			);
 			name = RecipeUITests;
 			packageProductDependencies = (
